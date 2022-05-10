@@ -457,7 +457,7 @@ body {
 /* САМ ПРАВЫЙ ФОН */
 .fon_leftBacround{
     position: absolute;
-    width: 705px;
+    width: 46%;
     height: 826px;
     left: 895px;
     top: 0px;
@@ -759,6 +759,8 @@ div.new_colection_rotate:hover{
     height: 363px;
     width: 100%;
     position: absolute;
+    
+   
 }
 
 .footer_logo {
@@ -924,3 +926,97 @@ left: 1197px;
 top: 104px;
 
 }
+/* Footer end */
+
+/* Shop start */
+.shop_into_text {
+    margin-top: 144px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 110%;
+}
+
+.gol_shop {
+    width: 181px;
+    height: 24px;
+    margin-bottom: 220px;
+}
+
+.shop_buttons {
+    width: 1050px;
+    height: 62px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 92px;
+}
+
+.shop_button {
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 5px;
+    padding-top: 19px;
+    color: black;
+    
+}
+
+.shop_button:hover {
+    background: black;
+    color: white;
+}
+
+.shop_buttons :first-child {
+    width: 190px;
+    margin: 0;
+    
+}
+
+
+.shop_cards {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+    
+}
+
+.shop_card {
+    margin-bottom: 65px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.shop_card p {
+    margin-top: 24px;
+}
+
+.shop_buttons_end {
+    margin-left: 490;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    margin-left: 490px;
+    
+
+}
+
+.shop_button_end {
+    width: 41px;
+    height: 41px;
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: none;
+    margin-left: 14px;
+    padding-top: 10px;
+    color: black;
+}
+
+.shop_button_end:hover {
+    background: black;
+    color: white;
+}
+
+.shop_all_cards {
+    margin-bottom: 154px;
+}
+
+/* Shop end */
